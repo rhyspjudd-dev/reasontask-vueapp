@@ -9,7 +9,7 @@
           </h1>
           <p class="mt-3 text-base text-cyan-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-cyan-500 md:text-xl md:text-cyan-500 md:bg-white lg:mx-0 lg:mb-5 md:p-4 md:mb-4 lg:mt-12">{{ header.subHeader }}</p>
           <div class="rounded-md cursor-pointer">
-            <a v-on:click='scroll2Anchor()' class="btn flex w-1/2 m-auto mt-2 rounded-md items-center justify-center rounded-md border border-transparent bg-white-500/50 px-8 py-3 text-base font-medium text-white sm:text-cyan-500 md:py-4 md:px-10 md:text-lg lg:mt-8"><span>{{ header.btnText }}</span></a>
+            <a v-on:click='scroll2Anchor()' class="btn flex w-1/2 m-auto mt-2 rounded-md items-center justify-center rounded-md border border-transparent bg-white-500/50 px-8 py-3 text-base font-medium md:py-4 md:px-10 md:text-lg lg:mt-8"><span>{{ header.btnText }}</span></a>
           </div>
         </div>
       </div>
