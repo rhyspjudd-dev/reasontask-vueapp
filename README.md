@@ -1,6 +1,5 @@
-# app
+# Reason Technical Task Pt2
 ```
-Reason Technical Task Pt2
 Vue-app
 Core tech: 
 Vue.js, 
@@ -11,7 +10,7 @@ tailwind, ES6
 Thanks for considering me :)
 
 ```
-App deployed to Netlfiy [here:](#)
+App deployed to Netlfiy [here](#)
 
 ## Project setup
 ```
