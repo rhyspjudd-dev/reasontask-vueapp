@@ -7,7 +7,7 @@ VueRouter (see: app/src/router/index.js),
 vuex (see: app/src/store/store.js),
 tailwind, ES6
 
-Thanks for considering me :)
+Thanks for considering me for the role :)
 
 ```
 App deployed to Netlfiy [here](#)
