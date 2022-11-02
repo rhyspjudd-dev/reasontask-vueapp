@@ -48,7 +48,7 @@ section {
   transition: transform .1s;
   background: white;
   border: 1px solid transparent;
-  border-radius: 50px;
+  border-radius: 50px !important;
 }
 
 .btn:hover {

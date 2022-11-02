@@ -37,7 +37,7 @@
             </div>
           </div>
             <div class="rounded-md mb-8">
-              <a :href="`${ about.card.gitLink }`" target="_blank" class="btn flex w-1/4 m-auto mt-2 rounded-md items-center justify-center rounded-md border border-transparent bg-white-500/50 px-8 py-3 text-base font-medium text-white sm:text-cyan-500 md:py-4 md:px-10 md:text-lg lg:mt-8"><span>{{ about.finalbtnText }}</span></a>
+              <a :href="`${ about.card.gitLink }`" target="_blank" class="btn flex w-1/4 m-auto mt-2 rounded-md items-center justify-center rounded-md border border-transparent bg-white-500/50 px-8 py-3 text-base font-medium md:py-4 md:px-10 md:text-lg lg:mt-8"><span>{{ about.finalbtnText }}</span></a>
             </div>
         </div>
      </div>
