@@ -11,33 +11,33 @@
               <div class="container">
                 <h3 class="text-black text-2xl font-bold mb-4">{{ about.card.title01 }}</h3>
                 <p class="text-black mb-8">{{ about.card.text }}</p>
-                <a :href="`${ about.card.btnLink }`" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
+                <a :href="`${ about.card.btnLink }`" target="_blank" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
               </div>
             </div>
             <div class="card bg-white flex justify-center items-center text-center p-8 md:p-4">
               <div class="container">
                 <h3 class="text-black text-2xl font-bold mb-4">{{ about.card.title02 }}</h3>
                 <p class="text-black mb-8">{{ about.card.text }}</p>
-                <a :href="`${ about.card.btnLink }`" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
+                <a :href="`${ about.card.btnLink }`" target="_blank" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
               </div>
             </div>
             <div class="card bg-white flex justify-center items-center text-center p-8 md:p-4">
               <div class="container">
                 <h3 class="text-black text-2xl font-bold mb-4">{{ about.card.title03 }}</h3>
                 <p class="text-black mb-8">{{ about.card.text }}</p>
-                <a :href="`${ about.card.btnLink }`" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
+                <a :href="`${ about.card.btnLink }`" target="_blank" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
               </div>
             </div>
             <div class="card bg-white flex justify-center items-center text-center p-8 md:p-4">
               <div class="container">
                 <h3 class="text-black text-2xl font-bold mb-4">{{ about.card.title04 }}</h3>
                 <p class="text-black mb-8">{{ about.card.text }}</p>
-                <a :href="`${ about.card.btnLink }`" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
+                <a :href="`${ about.card.btnLink }`" target="_blank" class="btn border-2 border-black"><span>{{ about.card.btnText }}</span></a>
               </div>
             </div>
           </div>
             <div class="rounded-md mb-8">
-              <a href="#" class="btn flex w-1/4 m-auto mt-2 items-center justify-center rounded-md border border-transparent bg-white-500/50 px-8 py-3 text-base font-medium text-white hover:bg-cyan-700 sm:text-cyan-500 md:py-4 md:px-10 md:text-lg lg:mt-8"><span>{{ about.finalbtnText }}</span></a>
+              <a :href="`${ about.card.gitLink }`" target="_blank" class="btn flex w-1/4 m-auto mt-2 rounded-md items-center justify-center rounded-md border border-transparent bg-white-500/50 px-8 py-3 text-base font-medium text-white sm:text-cyan-500 md:py-4 md:px-10 md:text-lg lg:mt-8"><span>{{ about.finalbtnText }}</span></a>
             </div>
         </div>
      </div>
@@ -62,6 +62,7 @@ export default {
             text: "Rhys hopes you like his tech task!",
             btnText: "read more",
             btnLink: "http://rpj-dev.com/",
+            gitLink: "https://github.com/rhyspjudd-dev",
           },
           finalbtnText: "More about stuff we do"
       },

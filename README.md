@@ -10,7 +10,7 @@ tailwind, ES6
 Thanks for considering me for the role :)
 
 ```
-App deployed to Netlfiy [here](#)
+App deployed to Netlfiy [here](https://snazzy-cajeta-1e3018.netlify.app/)
 
 ## Project setup
 ```
