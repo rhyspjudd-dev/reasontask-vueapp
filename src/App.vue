@@ -15,7 +15,7 @@
   </div>
   <nav class="relative">
     <router-link to="/" class="logo">
-      <img alt="Vue logo" class="ml-4" src="../../app/src/assets/logo.png" />
+      <img alt="Vue logo" class="ml-4" src="./assets/logo.png" />
     </router-link>
     <router-link to="/">{{ store.menuItems[0] }}</router-link>
     <router-link :to="{ name: 'about' }">{{ store.menuItems[1] }}</router-link>
